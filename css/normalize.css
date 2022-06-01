@@ -1,0 +1,10 @@
+/* All elements style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Root style */
+  :root {
+    font-size: 16px;
+  }
