@@ -7,4 +7,8 @@
   /* Root style */
   :root {
     font-size: 16px;
+    --main-color: #2c2c2c;
+    --second-color: #656363;
+    --third-color: #bc9060;
+    --fourth-color: #d67e34;
   }
