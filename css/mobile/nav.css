@@ -8,10 +8,36 @@ body {
 
 nav {
     width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
 .logo {
-    width: 45%;
-    margin-left: .5rem;
+    width: 40%;
+}
+
+.x-menu {
+    width: 3rem;
+}
+
+.x-menu div {
+    width: 3rem;
+    height: .3rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    transition: 0.5s;
+}
+
+.x-menu div:nth-child(2) {
+    width: 1.5rem;
+}
+
+.top, .middle {
+    margin-bottom: .5rem;
+}
+
+.menu-container {
+    display: none;
 }
