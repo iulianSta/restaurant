@@ -5,3 +5,44 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+ main {
+    width: 100bw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+main p:first-child,
+main p:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+main p:first-child {
+    font-size: 1.3rem;
+}
+
+main p:nth-child(2) {
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+
+main p:nth-child(3) {
+    color: var(--white);
+    text-transform:uppercase;
+}
+
+main button {
+    width: 40%;
+    height: 8%;
+    margin-top: 2rem;
+    text-transform:uppercase;
+    border-radius: 3px;
+    border: none;
+    color: var(--white);
+    background-color: var(--orange);
+}
