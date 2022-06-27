@@ -1,36 +1,41 @@
 .clos-cards {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--lightgray);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--lightgray);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(101, 99, 99, 1) 100%
+  );
 }
 
 .clos-cards div {
-    width: 80%;
-    position: relative;
-    top: -6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--white);
-    margin-bottom: 1rem;
+  width: 80%;
+  position: relative;
+  top: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white);
+  margin-bottom: 1rem;
 }
 
 .clos-cards div img {
-    width: 5rem;
+  width: 5rem;
 }
 
 .clos-cards div p:last-child {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.clos-cards div img+p {
-    margin-bottom: .5rem;
+.clos-cards div img + p {
+  margin-bottom: 0.5rem;
 }
 
-.clos-cards div p span  {
-    color: var(--light-orange);
+.clos-cards div p span {
+  color: var(--light-orange);
 }
