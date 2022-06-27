@@ -17,6 +17,14 @@
 }
 
 main p:first-child,
+main p:nth-child(2),
+main p:nth-child(3),
+main button {
+    position: relative;
+    top:-3rem;
+}
+
+main p:first-child,
 main p:nth-child(2) {
     color: var(--orange);
     font-weight: bold;
