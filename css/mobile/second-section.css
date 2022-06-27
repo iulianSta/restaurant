@@ -1,0 +1,35 @@
+.clos-cards {
+    width: 100vw;
+    position: relative;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clos-cards div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.clos-cards div img {
+    width: 5rem;
+}
+
+.clos-cards div p:last-child {
+    margin-bottom: .5rem;
+}
+
+.clos-cards div img+p {
+    margin-bottom: .5rem;
+}
+
+.clos-cards div p span  {
+    color: var(--light-orange);
+}

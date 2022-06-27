@@ -10,6 +10,11 @@
     --black: #2c2c2c;
     --white: #ffffff;
     --gray: #656363;
+    --lightgray: lightgray;
     --light-orange: #bc9060;
     --orange: #d67e34;
+  }
+
+  body {
+    background-color: var(--lightgray);
   }
