@@ -14,7 +14,3 @@
     --light-orange: #bc9060;
     --orange: #d67e34;
   }
-
-  body {
-    background-color: var(--lightgray);
-  }
